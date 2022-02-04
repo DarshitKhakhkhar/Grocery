@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.grocery">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".activitys.SplashActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activitys.PlacedOrderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activitys.NavCatagoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activitys.DetailedActivity"
+            android:exported="false"
+            android:label="Detailed " />
+        <activity
+            android:name=".activitys.ViewAllActivity"
+            android:exported="true"
+            android:label="View All" />
+        <activity
+            android:name=".activitys.Welcome_activity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".activitys.SignUp_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".activitys.Login_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".activitys.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Grocery.NoActionBar" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
