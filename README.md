@@ -13,5 +13,9 @@
 - if user already sign in it navigate on MainActivity and also have logout function. 
 
 ## Screen
+![grocery_1](https://user-images.githubusercontent.com/89833644/152638389-565c3dcc-ba93-4b90-83bd-2b909e0f9e23.jpg)
+![grocery_2](https://user-images.githubusercontent.com/89833644/152638403-937c7d45-80ba-4add-8286-909286176b06.jpg)
+![grocery_3](https://user-images.githubusercontent.com/89833644/152638411-c985c0f3-7441-46d2-9d9a-125439c341ca.jpg)
+
 
 
